@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".Casedetail">
+
+    <TextView
+        android:id="@+id/sendMatterDetailsToLawyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:fontFamily="@font/louisgeorgecafebold"
+        android:text="SEND MATTER DETAILS"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+
+    <TextView
+        android:id="@+id/CategoryOnLawyerInfoPage"
+        android:layout_width="121dp"
+        android:layout_height="45dp"
+        android:background="@color/green"
+        android:fontFamily="@font/louisgeorgecafebold"
+        android:gravity="center"
+        android:text="CATEGORY"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/white_box"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/MatterDetails"
+        android:layout_width="121dp"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        android:fontFamily="@font/louisgeorgecafebold"
+        android:gravity="center"
+        android:text="DETAILS OF MATTER"
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/white_box"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:background="@drawable/white_box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <EditText
+        android:id="@+id/EnterDetailsOfMatter"
+        android:layout_width="210dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter matter details"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="1"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fresh_eaters"
+        android:text="ADVOMEET"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/SendToLawyerButton"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:fontFamily="@font/louisgeorgecafebold"
+        android:text="SEND TO LAWYER"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="79dp"
+        android:layout_height="73dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Spinner
+        android:id="@+id/categoryspinner"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:background="@color/blue"
+        android:ems="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/white_box"
+        app:layout_constraintVertical_bias="0.422" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

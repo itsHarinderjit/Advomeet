@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "224945970633",
+    "project_id": "advomeet-the-legal-app",
+    "storage_bucket": "advomeet-the-legal-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224945970633:android:fad18a3a99674d07119c18",
+        "android_client_info": {
+          "package_name": "com.example.advomeet_the_legal_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224945970633-aaq79l014h9koc3rvpd5k0rjg21pvh6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.advomeet_the_legal_app",
+            "certificate_hash": "c61104d139a64f9895306499247a2a1de1d13a45"
+          }
+        },
+        {
+          "client_id": "224945970633-je2ivr5kvpmj5j7sfip0old1901vktls.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnOaOuYLtnVijPB5EFMWkWnj3kGaEYGbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224945970633-je2ivr5kvpmj5j7sfip0old1901vktls.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

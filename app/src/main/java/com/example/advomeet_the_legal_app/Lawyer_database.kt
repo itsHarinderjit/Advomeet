@@ -1,0 +1,3 @@
+package com.example.advomeet_the_legal_app
+
+data class Lawyer_database(val fname:String?=null,val lname:String?=null,val phoneno1:String?=null,val phoneno2:String?=null,val city:String?=null,val district:String?=null,val state:String?=null,val pincode:Int?=null,val gender:String?=null,val about:String?=null,val isproperty:Boolean?=null,val iscriminal:Boolean?=null,val isdigital:Boolean?=null,val ismedical:Boolean?=null,val barid:String?=null,val since:String?=null,val education:String?=null,val experience:String?=null)
